@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="edu.cuny.csi.csc330.fall14.project.CargoContainer" project="CSC330" 
+    file="/CSC330/src/edu/cuny/csi/csc330/fall14/project/CargoContainer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="207" x="368" y="2817"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="edu.cuny.csi.csc330.fall14.project.CargoFlight" project="CSC330" 
+    file="/CSC330/src/edu/cuny/csi/csc330/fall14/project/CargoFlight.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="639" width="349" x="205" y="2138"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="edu.cuny.csi.csc330.fall14.project.CargoItem" project="CSC330" 
+    file="/CSC330/src/edu/cuny/csi/csc330/fall14/project/CargoItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="250" x="596" y="3388"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="edu.cuny.csi.csc330.fall14.project.CargoPilot" project="CSC330" 
+    file="/CSC330/src/edu/cuny/csi/csc330/fall14/project/CargoPilot.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="287" x="41" y="2817"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="edu.cuny.csi.csc330.fall14.project.CargoPlane" project="CSC330" 
+    file="/CSC330/src/edu/cuny/csi/csc330/fall14/project/CargoPlane.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="329" x="636" y="2817"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="edu.cuny.csi.csc330.fall14.project.database" project="CSC330" 
+    file="/CSC330/src/edu/cuny/csi/csc330/fall14/project/database.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="228" x="51" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="edu.cuny.csi.csc330.fall14.project.JTextAreaOutputStream" project="CSC330" 
+    file="/CSC330/src/edu/cuny/csi/csc330/fall14/project/JTextAreaOutputStream.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="198" x="328" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="edu.cuny.csi.csc330.fall14.project.Menu" project="CSC330" 
+    file="/CSC330/src/edu/cuny/csi/csc330/fall14/project/Menu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="2061" width="238" x="575" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="10" name="cargoList"/>      
+      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <bendpoint x="584" y="2138"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="13" name="cargoContainerList"/>      
+      <multiplicity id="14" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="16" name="plane"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <bendpoint x="174" y="2138"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="19" name="cargoPilotList"/>      
+      <multiplicity id="20" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <bendpoint x="626" y="2138"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="22" name="cargoPlaneList"/>      
+      <multiplicity id="23" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="24">    
+    <bendpoint x="605" y="2138"/>    
+    <bendpoint x="605" y="2817"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="25" name="cargoItemsList"/>      
+      <multiplicity id="26" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="28" name="pilot"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="31" name="cargoFlightList"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="34" name="containerList"/>      
+      <multiplicity id="35" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
